@@ -61,6 +61,7 @@ public class ArrayListPractice {
 		data.add(500);
 		data.add(null);
 		data.add(null);
+		
 //remove null
 		
 		data.removeAll(Arrays.asList((String)null));

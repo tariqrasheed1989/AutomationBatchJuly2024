@@ -20,5 +20,15 @@ public class JavaProblems {
 		getVowels("india");
 		
 	}
+	
+	//library - opening - 5 books. ARRAYLIST, {"history", "maths", "science"}//0,1,2
+	//iterate - 
+	//student - get one book - 2 index
+	//new week - {"new Maths","SST","GK"} - NEW LIST CONSTER
+	//OLD BOOKS - REMOVE
+	//REMAINING - ITERATE
+	
+	
+	
 
 }
