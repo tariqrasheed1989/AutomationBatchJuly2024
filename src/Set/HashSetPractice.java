@@ -45,5 +45,10 @@ public class HashSetPractice {
 		System.out.println(hs.contains(17));
 		
 	}
+	
+	//array 1 = {1,2,3,4,5}
+	//array2 = {3,4,5,6,7};
 
+//	common values - output {3,4,5};
+	//has set
 }
