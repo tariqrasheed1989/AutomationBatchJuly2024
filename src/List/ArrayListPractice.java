@@ -2,7 +2,7 @@ package List;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
+import java.util.List;
 
 public class ArrayListPractice {
 	public static void main(String[] args) {
@@ -62,15 +62,12 @@ public class ArrayListPractice {
 		data.add(null);
 		data.add(null);
 		
-//remove null
+		data.remove(null);
 		
 		data.removeAll(Arrays.asList((String)null));
-		System.out.println(data);
-		
-//		
 //		data.add(3, 4354);
 //		
-//		System.out.println(data);
+		System.out.println(data);
 //		data.set(3, 435);
 //		System.out.println(data);
 //		System.out.println(data.isEmpty());
@@ -93,5 +90,9 @@ public class ArrayListPractice {
 //		while(it.hasNext()) {
 //			System.out.println(it.next());
 //		}
+		
+		
+	
 	}
+	
 }
