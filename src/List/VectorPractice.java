@@ -10,21 +10,20 @@ public class VectorPractice {
 	public static void main(String[] args) {
 		
 		Vector v=new Vector();
-
-//		v.add("fan");
-//		v.addElement("table");
-//		v.addLast("keyboard");
-//		v.addFirst("chair");
-//		System.out.println(v);
+		v.addLast("keyboard");
+		v.add("fan");
+		v.addElement("table");
+		v.addFirst("chair");
+		System.out.println(v);
 		String[] newSongs= {"Song a", "Song b","Song c"};
 		List<String> intialSongs = Arrays.asList(newSongs);
 		
 //		ArrayList<String>playlist= new ArrayList(intialSongs);
 		Vector<String> playlist = new Vector<String>(intialSongs);
-		System.out.println(playlist);
-		
-		playlist.add("baddo badi");
-		playlist.add("shape of you");
+//		System.out.println(playlist);
+//		
+//		playlist.add("baddo badi");
+//		playlist.add("shape of you");
 		
 		
 		
