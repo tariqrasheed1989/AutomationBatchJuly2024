@@ -2,6 +2,8 @@ package map;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class HashMapDemo {
@@ -44,10 +46,20 @@ public class HashMapDemo {
 		Collection<String> values= map.values();
 		for(String v:values) {
 			System.out.println(v);
+		}		
+	
+		System.out.println(map);
+		//1 => pragya
+		Set<Integer> set= map.keySet();
+		for(int x:set) {
+//			System.out.println(x+"=>"+map.get(x));
+			System.out.println(map.get(x)+" : "+x);
 		}
 		
-		
-		
+		System.out.println("---Entry Iterator---------");
+		for(Entry<Integer, String> entry:map.entrySet()) {
+			System.out.println(entry.getKey()+":"+entry.getValue());
+		}
 	}
 
 }
