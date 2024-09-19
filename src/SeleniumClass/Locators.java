@@ -26,11 +26,27 @@ public class Locators {
 //		driver.findElement(By.id("APjFqb")).sendKeys("Selenium");
 //		driver.findElement(By.linkText("Gmail")).click();
 		
-		driver.get("https://en.wikipedia.org/wiki/Constitution_of_India");
+//		driver.get("https://en.wikipedia.org/wiki/Constitution_of_India");
+//		
+//		driver.findElement(By.partialLinkText("fundamental")).click();
+//		
+//		driver.findElement(By.id("shub61"));
+//		driver.findElement(By.name("email"));
+//		driver.findElement(By.tagName("input"));
+//		driver.findElement(By.className("hfe-search-form__input"));
+//		
+//		driver.findElement(By.tagName("input"));
+//		
+//		driver.findElement(By.linkText("Click to Download PNG File")).click();
+//		Click to Download JPG File
 		
-		driver.findElement(By.partialLinkText("fundamental")).click();
+//		driver.findElement(By.partialLinkText("Click to Download")).click();
+//		
+//		driver.findElement(By.xpath("//input[@name='email']"));
 		
-		driver.findElement(By.tagName("input"));
+		
+		driver.get("https://www.flipkart.com/");
+		driver.findElement(By.xpath("//a[@title='Login'][@class='_1TOQfO']")).click();
 		
 		
 	}
