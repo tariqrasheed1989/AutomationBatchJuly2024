@@ -11,12 +11,11 @@ public class SelectClass {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "D:\\Class\\JavaCollectionBatchJuly2024\\src\\browsers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();	
+		driver.manage().window().maximize();
 		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
-		WebElement dropDown=driver.findElement(By.cssSelector("select#dropdown-class-example"));
-		
+		WebElement dropDown=driver.findElement(By.cssSelector("select#dropdown-class-example"));		
 		
 		Select select = new Select(dropDown);
 //		select.selectByIndex(3);
@@ -30,8 +29,7 @@ public class SelectClass {
 		System.out.println("Multiple Selection: "+select.isMultiple());
 		
 		driver.quit();
-		
-		
+
 	}
 
 }
